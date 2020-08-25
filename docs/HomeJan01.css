@@ -130,7 +130,6 @@ p,ul,ol,li,div,td,th,address,nobr,b,i {
 	text-decoration:none;
 }
 
-*/ 
 /* a:link = Verweise zu noch nicht besuchten Seiten */
 /* a:visited = Verweise zu bereits besuchten Seiten */
 /* a:active = Verweise, die gerade angeklickt werden */
@@ -141,7 +140,7 @@ p,ul,ol,li,div,td,th,address,nobr,b,i {
 /* text-decoration = Tesxtstil */
 /* underline = unterstrichen, Default-Wert, Wert aenderbar */
 /* none = nicht unterstrichen, Wert aenderbar */                 
-a.w,a {
+ *  a.w,a {
 	font-size:14pt;
 	text-decoration:none;	
 }
