@@ -1,1 +1,61 @@
-theme: jekyll-theme-leap-day
+
+remote_theme: wowthemesnet/mundana-theme-jekyll
+
+# Site
+name: 'Reinhard aus Nussdorf am Inn'
+description: 'Über die Berge im Inntal und woanders.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+#baseurl: '/mundana-theme-jekyll'
+disqus: 'Berge Blog'
+email: 'berge@reinhard-aus-nussdorf.de'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+####  - jekyll-google-photos
+  
+authors:
+    reinhard:
+      name:           Reinhard
+      site:           https://reinhard-aus-nussdorf.de
+      avatar:         assets/images/reinhard_avatar.jpg
+      bio:            "Wenn Du auch so gerne in den Bergen unterwegs bist, schreib mir doch eine Email!"
+      email:          berge@reinhard-aus-nussdorf.de
+
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: reinhard
+      avatar: /assets/images/reinhard_avatar.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
