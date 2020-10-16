@@ -1,5 +1,5 @@
 {
-    "name": "Jekyll Now",
+    "name": "Jekyll Dev moses70",
     "dockerFile": "Dockerfile",
     "forwardPorts": [
         4000
