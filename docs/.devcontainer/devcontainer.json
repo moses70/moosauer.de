@@ -1,0 +1,10 @@
+{
+    "name": "Jekyll Dev moses70",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [
+        4000
+    ],
+    "extensions": [
+        "mrmlnc.vscode-scss"
+    ]
+}
