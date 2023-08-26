@@ -1,1 +1,1 @@
-FROM moses70/my:jekyll
+FROM mcr.microsoft.com/devcontainers/jekyll
